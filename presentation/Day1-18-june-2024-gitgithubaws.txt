@@ -1,0 +1,202 @@
+Amazon Web Service - AWS
+1. Version Control
+git and GitHub
+git installed on local system
+GitHub - cloud platform 
+for version control
+2.Cloud platform 
+Amazon - Amazon Web Service (AWS)
+Microsoft - Azure
+Google - Google Cloud
+3. AWS Services
+S3 - Simple Storage Solution
+storing images,videos,audio's,
+data files,static files,
+static website
+EC2 - Elastic Cloud Compute
+Virtual Servers
+Deploy applications on virtual servers
+network,public ip address
+RDS - Relational Database Service
+SNS - Simple Notification Service
+Containers - Docker,kubernetes - Clustering
+Serverless  hosting
+Lambda
+
+Cloud computing
+Deployment Model - public,private,hybrid
+Service Model 
+IAAS - Infrastructure As A Service
+PAAS - Platform As A Service
+SAAS - Software As A Service
+
+git
+
+1. git
+
+Step 1 - Download and install git
+
+https://www.git-scm.com/downloads
+
+check version
+git --version
+
+download and  install visual stdio code
+
+https://code.visualstudio.com/download
+
+create an account in gitHub.com
+
+Step 2 -
+create gitdemo folder
+open gitdemo folder in visual studio code
+
+view - >terminal
+git init
+git add index.html
+git status
+git commit -m "initial commit"
+
+create contactus.html
+modify index.html
+
+git status
+git add index.html
+git add contactus.html
+git add . (use this to add all the files)
+
+Login to GitHub.com
+
+create a new repository
+name it as awsdemo
+copy the commands 
+
+git branch
+git branch -M main
+git status
+git add .
+git commit -m "second commit"
+git remote add origin https://github.com/raghuprasadks/awsgitdemo.git
+git push -u origin main
+
+
+Commands after changing a file or adding a file
+
+git status
+git add .
+git commit -m "modified"
+git push
+
+
+
+Cloning a repository
+
+Find url of the repository
+https://github.com/raghuprasadks/awsgitdemo.git
+
+create gitclone folder
+cmd to  gitclone
+git clone https://github.com/raghuprasadks/awsgitdemo.git
+
+
+Demonstration of git pull
+
+steps
+1. modify index.html and save
+git status
+git add .
+git commit -m "updated index.html"
+git push
+
+cmd to gitclone/awsgitdemo
+
+git pull
+
+Deployment of static web pages in git hub
+
+Webservers
+
+Visual studio code 
+live server
+
+modify index.html
+
+git status
+git add .
+git commit -m "live server"
+git push
+
+
+
+
+GitHub pages
+Settings - Pages -> branch main - >save
+Wait for some time and refresh to get
+the webpage link
+
+CI CD
+CI - Contionous Integration
+CD - Continous Deployment
+
+Add google map in contact.html
+
+googlemaps
+search new horizon college of engineering
+share - embed a map- copy html
+
+git status
+git add .
+git commit -m "added google map"
+git push
+
+branch
+
+git branch videos
+git branch
+git checkout videos
+git branch
+
+create videos.html
+add youtube video
+
+git add .
+git commit -m "videos"
+git push -u origin videos
+
+merging
+
+git checkout main
+git merge videos
+git push -u origin main
+
+AWS - 
+https://aws.amazon.com/
+create free tier account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
