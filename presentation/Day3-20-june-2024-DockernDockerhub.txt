@@ -53,6 +53,24 @@ command to create a docker image
 
 docker build -t pythonflask .
 
+kaushalya tech - git-repositories
+
+https://hub.docker.com/
+create an account 
+
+docker login
+docker images
+
+docker tag pythonflask raghuprasadkonandur/pythonflask
+
+docker push raghuprasadkonandur/pythonflask
+
+
+
+
+
+
+
 
 
 
