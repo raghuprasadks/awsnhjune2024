@@ -66,6 +66,16 @@ docker tag pythonflask raghuprasadkonandur/pythonflask
 docker push raghuprasadkonandur/pythonflask
 
 
+Deploy docker image on EC2 instance
+
+1. login to AWS
+2. create developmentserver EC2 instance
+
+
+
+
+
+
 
 
 
