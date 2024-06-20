@@ -6,7 +6,9 @@
 6. apt-cache policy docker-ce
 7. sudo apt-get install docker-ce
 8. sudo systemctl status docker
-9. docker pull raghuprasadkonandur/pythonflask
-10 docker run --port 80:5000 raghuprasadkonandur/pythonflask
+9. sudo docker pull raghuprasadkonandur/pythonflask
+10. sudo docker images
+11 sudo docker run -p 80:5000 raghuprasadkonandur/pythonflask
+12. open the application using public ip in a browser
 
 
