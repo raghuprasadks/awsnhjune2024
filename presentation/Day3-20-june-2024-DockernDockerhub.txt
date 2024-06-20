@@ -1,0 +1,66 @@
+Recap:
+1. AWS
+EC2 - Elastic Cloud Compute
+Virtual Machine
+Configuration - name
+image - Ubuntu
+Size - RAM,processor
+Volume - Storage
+SSH - 22
+http - 80
+https - 443
+Connection - Connection in AWS
+SSH Client MobaXterm
+GITBash - ssh
+Installed ngnix - web server
+webpage - public ip
+set the path of python and Scripts
+Created a python flask application in visual stdio code
+flask
+virtual environment
+python -m venv venv
+./venv/Scripts/activate
+(venv)
+pip install flask
+app.py
+
+Deployed on EC2 instance
+
+Agenda:
+1. login as administrator to your desktop
+dssecure
+2. download and install docker desktop
+3. Learning center..
+start the basic example
+run image to get the container
+4. Install python
+dockerhub
+https://hub.docker.com/
+
+5. docker demo
+a. create dockerdemo folder
+open in visual studio code
+b. View ->terminal
+create virtual environment
+python -m venv venv
+
+activate virtual environment
+.\venv\Scripts\activate
+
+pip install flask
+
+command to create a docker image
+
+docker build -t pythonflask .
+
+
+
+
+
+
+
+
+
+
+
+
