@@ -71,6 +71,52 @@ Deploy docker image on EC2 instance
 1. login to AWS
 2. create developmentserver EC2 instance
 
+Assignment
+1. Create flask python project to manage products
+
+a. products - post,get,put, delete
+b. 
+https://jsonplaceholder.typicode.com/users
+
+javascript object
+
+employee={
+code:1,
+name:"ravi",
+dept:"IT"
+}
+
+
+json object
+
+employee={
+"code":1,
+"name":"ravi",
+"dept":"IT"
+}
+
+employees=
+[
+{
+"code":1,
+"name":"ravi",
+"dept":"IT"
+},
+{
+"code":2,
+"name":"rashmi",
+"dept":"IT"
+},
+{
+"code":3,
+"name":"rahul",
+"dept":"IT"
+},
+
+]
+
+
+
 
 
 
