@@ -16,12 +16,71 @@ AWS login
 
 a. create demowebsite folder
 b. open folder in visual studio code
+c. test in any server like live server
 
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
 
+Route 53
 
-docker image in the detached mode
--d 
+kaushalya.tech
+
+godaddy
+
 2. RDS
+Database
+RDBMS - Relational Database Management System
+Oracle,MS-SQL,My-SQL,Postgres,DB2,Sybase
+
+SQL - Structured Query Language
+Tables - primary key,foreign key
+DDL
+DML
+No SQL - Not Only SQL
+
+devopsdemodb
+admin
+admin123
+
+Public access - enabled
+inbound rules
+
+devopsdemodb.cdtqd6jgia7i.ap-south-1.rds.amazonaws.com
+
+
+download and install MySQL community workbench
+https://dev.mysql.com/downloads/workbench/
+
+created a connection by providing connection details
+ip,port
+user,password
+
+created a database
+created a table
+insert,update,select,delete
+
+Create products table having following fields
+
+code - int - primary key, nn,ai
+name - varchar(100) - nn
+description - varchar(100) - nn
+supplier - varchar(100) - nn
+price - int - nn
+
+a. insert 3 products
+insert into products(name,description,supplier,price) values ('ear phone','ear phone','boat',2000)
+b. select all products
+select * from products
+c. update a product change its price
+update products set price = 5000 where code =1
+d. delete a product
+delete from products where code =1
+
+open the product api program
+activate virtual environment
+pip install pymysql
+
+
+
 
 
 
