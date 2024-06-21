@@ -1,0 +1,27 @@
+Recap:
+1. Docker
+2. Docker hub
+3. Creation  of docker image
+4. Pushing docker image to docker hub
+5. Installing docker on EC2
+6. Deploying docker image on EC2
+7. API
+8. Postman
+
+Plan for today
+1. S3 - Simple/Sclable Strorage Solution
+Bucket
+
+AWS login
+
+a. create demowebsite folder
+b. open folder in visual studio code
+
+
+
+docker image in the detached mode
+-d 
+2. RDS
+
+
+
