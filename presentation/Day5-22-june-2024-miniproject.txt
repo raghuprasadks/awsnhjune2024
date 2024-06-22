@@ -1,0 +1,76 @@
+Recap:
+1. Development and deployment of API
+on Docker,Dockerhub,EC2 and RDS
+
+Workbench
+API's
+test the api's using postman
+
+1. Create database using RDS
+2. Enble public access
+3. Inbound ports all traffic is enabled 
+
+Downloaded MySQL client
+Download and install MySQL workbench
+https://dev.mysql.com/downloads/workbench/
+
+
+
+
+Mini project:
+
+ISE branch
+1. Develop following api's to store information of a customer
+You have to store following customer information
+code,name,email,mobile,adddress,location,pincode
+
+http://127.0.0.1:5000/customer - post
+http://127.0.0.1:5000/customers - get
+http://127.0.0.1:5000/customer/<code> - put
+http://127.0.0.1:5000/customer/<code> - delete
+http://127.0.0.1:5000/customer/pincode/<pincode> - get
+
+Steps
+Step 1 - create or use a database instance from aws rds
+Step 2 - create a database miniprojectdb
+Step 3 - create customer table with the information provided
+code is the primary key having auto increment
+Step 4 - create python flask project custmerapi
+Step 5 - Develop the code and test using postman
+Step 6 - create a docker image
+Step 7 - Push to docker hub
+Step 8 - Deploy the project on EC2 using docker hub
+Step 9 - Test thoroughly
+Step 10 - Share public ip of the application in WhatsApp group
+
+DS branch
+1. Develop following api's to store information of a hospital
+You have to store following customer information
+code,name,email,mobile,adddress,location,pincode
+
+http://127.0.0.1:5000/hospital - post
+http://127.0.0.1:5000/hospitals - get
+http://127.0.0.1:5000/hospital/<code> - put
+http://127.0.0.1:5000/hospital/<code> - delete
+http://127.0.0.1:5000/hospital/pincode/<pincode> - get
+
+Steps
+Step 1 - create or use a database instance from aws rds
+Step 2 - create a database miniprojectdb
+Step 3 - create hospital table with the information provided
+code is the primary key having auto increment
+Step 4 - create python flask project hospitalapi
+Step 5 - Develop the code and test using postman
+Step 6 - create a docker image
+Step 7 - Push to docker hub
+Step 8 - Deploy the project on EC2 using docker hub
+Step 9 - Test thoroughly
+Step 10 - Share public ip of the application in WhatsApp group
+
+
+
+
+
+
+
+

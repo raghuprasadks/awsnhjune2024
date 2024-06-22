@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import pymysql
+#pip install pymysql
 
 app = Flask(__name__)
 products = []
