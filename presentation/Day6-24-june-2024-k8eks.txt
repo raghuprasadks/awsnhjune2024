@@ -51,3 +51,84 @@ AWS CLI - Command Line Interface
 4. EKS - Elastic Kubernetes Service
 5. I AM - User and Role management
 6. Feedback N MCQ Test
+
+Recap :
+
+Git
+1. downloaded git
+2. sign up - GitHub.com
+3. git commands
+git init
+git add <file name>
+git add .
+git commit -m "message"
+
+create a repo GitHub.com
+flaskapp
+git branch -M main
+git remote add repository <git url>
+git push -u origin main
+
+created a GitHub -- some.git
+
+git clone <something.git>
+git pull
+git branch
+git checkout
+git merge
+
+sample website - liveserver
+GitHub - pages
+githubactions
+CI-CD
+
+cloud basics
+deployment model - public,private,hybrid
+service models - 
+IAAS
+PAAS
+SAAS
+
+Python flask
+virtual environment
+python -m venv venv
+./venv/Scripts/activate
+pip install <files>
+requirements.txt
+
+API - Webservices
+database
+pymysql
+frontend
+fullstack
+EC2
+docker
+dockerhub
+docker images
+docker container
+docker build -t flaskapp .
+Dockerfile
+Dockerhub
+tag as per your docker profile
+docker push raghuprasadkonandur/flaskapp
+nginx
+ec2  - 
+GitHub - docker pull
+
+RDS -
+MySQL workbench
+end point,userid,password
+port
+
+user,permission
+Kubernetes
+kubectl
+eksctl
+
+
+
+
+
+
+
+
