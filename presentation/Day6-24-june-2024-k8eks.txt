@@ -30,7 +30,6 @@ import json
 
 def welcome():
     return "welcome to serverless deployment"
-
 def lambda_handler(event, context):
     # TODO implement
     msg = welcome()
@@ -46,17 +45,8 @@ security - open
 
 i. api end points
 https://iomuo21idl.execute-api.ap-south-1.amazonaws.com/default/welcomeusinglambda
-
-
-
-
-
-
-
-
-
-
 2. Kubernetes  - K8
+AWS CLI - Command Line Interface
 3. ECR - Elastic Container Registry
 4. EKS - Elastic Kubernetes Service
 5. I AM - User and Role management
