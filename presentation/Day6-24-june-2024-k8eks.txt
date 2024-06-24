@@ -1,0 +1,25 @@
+Recap:
+1. Python flask fullstack application
+
+Steps :
+
+1. clone git and download files under flaskfullstack folder
+https://github.com/raghuprasadks/awsnhjune2024/tree/main/flaskfullstack
+
+2. create flaskfullstack folder
+3. copy app.py and html files under the templates folder as it is
+4. Create and activate virtual environment
+python -m venv venv
+./venv/Scripts/activate
+5. install flask
+pip install flask
+6. python app.py
+
+
+Agenda:
+1. Lambda functions - Serverless deployment
+2. Kubernetes  - K8
+3. ECR - Elastic Container Registry
+4. EKS - Elastic Kubernetes Service
+5. I AM - User and Role management
+6. Feedback N MCQ Test
