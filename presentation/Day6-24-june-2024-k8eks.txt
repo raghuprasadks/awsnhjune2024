@@ -18,6 +18,44 @@ pip install flask
 
 Agenda:
 1. Lambda functions - Serverless deployment
+a. Login to aws
+b. search for lambda service
+c. click on create function - 
+d. Select Author from scratch
+e. name of the function welcomeusinglambda
+f. select python as runtime
+g. Replace existing code with 
+
+import json
+
+def welcome():
+    return "welcome to serverless deployment"
+
+def lambda_handler(event, context):
+    # TODO implement
+    msg = welcome()
+    return {
+        'statusCode': 200,
+        'body': json.dumps(msg)
+    }
+
+h.deploy and test
+j. add trigger - API Gateway
+New gateway
+security - open
+
+i. api end points
+https://iomuo21idl.execute-api.ap-south-1.amazonaws.com/default/welcomeusinglambda
+
+
+
+
+
+
+
+
+
+
 2. Kubernetes  - K8
 3. ECR - Elastic Container Registry
 4. EKS - Elastic Kubernetes Service
